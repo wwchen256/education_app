@@ -11,11 +11,11 @@ A guide to English vocabulary through the building blocks of meaning. Each chapt
 
 ## Contents
 
-- [Introduction — What Are Morphemes?](/intro/)
+- [Introduction — What Are Morphemes?]({{ '/intro/' | url }})
 {% for chapter in collections.chapters %}
 - [Chapter {{ chapter.data.chapternumber }} — {{ chapter.data.title }}]({{ chapter.url }})
 {% endfor %}
-- [Morpheme Index](/appendix/)
+- [Morpheme Index]({{ '/appendix/' | url }})
 
 ---
 

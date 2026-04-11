@@ -19,7 +19,7 @@ permalink: /appendix/
       <td><span class="morpheme morpheme--root">{{ entry.morpheme }}</span></td>
       <td>{{ entry.gloss }}</td>
       <td>{% if entry.variants.length %}{{ entry.variants | join(", ") }}{% else %}—{% endif %}</td>
-      <td><a href="/chapters/{{ entry.chapter }}/">{{ entry.chapterTitle }}</a></td>
+      <td><a href="{{ ('/chapters/' + entry.chapter + '/') | url }}">{{ entry.chapterTitle }}</a></td>
     </tr>
   {% endfor %}
   </tbody>
@@ -37,7 +37,7 @@ permalink: /appendix/
       <td><span class="morpheme morpheme--prefix">{{ entry.morpheme }}</span></td>
       <td>{{ entry.gloss }}</td>
       <td>{% if entry.variants.length %}{{ entry.variants | join(", ") }}{% else %}—{% endif %}</td>
-      <td><a href="/chapters/{{ entry.chapter }}/">{{ entry.chapterTitle }}</a></td>
+      <td><a href="{{ ('/chapters/' + entry.chapter + '/') | url }}">{{ entry.chapterTitle }}</a></td>
     </tr>
   {% endfor %}
   </tbody>

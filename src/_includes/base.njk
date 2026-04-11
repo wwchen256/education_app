@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} — Word Roots</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <nav class="site-nav">
-    <a href="/" class="site-nav__home">Word Roots</a>
-    <a href="/appendix/">Morpheme Index</a>
+    <a href="{{ '/' | url }}" class="site-nav__home">Word Roots</a>
+    <a href="{{ '/appendix/' | url }}">Morpheme Index</a>
   </nav>
   <main class="page">
     {{ content | safe }}
   </main>
   <footer class="site-footer">
-    <a href="/">← Table of Contents</a>
+    <a href="{{ '/' | url }}">← Table of Contents</a>
   </footer>
 </body>
 </html>
