@@ -20,6 +20,17 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
   });
 
+  // Filters for prev/next chapter navigation
+  eleventyConfig.addFilter("getPrevChapter", function(chapters, url) {
+    const idx = chapters.findIndex(ch => ch.url === url);
+    return idx > 0 ? chapters[idx - 1] : null;
+  });
+
+  eleventyConfig.addFilter("getNextChapter", function(chapters, url) {
+    const idx = chapters.findIndex(ch => ch.url === url);
+    return idx < chapters.length - 1 ? chapters[idx + 1] : null;
+  });
+
   // Pass CSS through to _site unchanged
   eleventyConfig.addPassthroughCopy("src/css");
 

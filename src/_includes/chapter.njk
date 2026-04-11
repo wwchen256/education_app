@@ -19,21 +19,16 @@ layout: base.njk
 {{ content | safe }}
 
 <nav class="chapter-nav">
-  {% set chapters = collections.chapters %}
-  {% set ns = namespace(idx=0) %}
-  {% for ch in chapters %}
-    {% if ch.url == page.url %}{% set ns.idx = loop.index0 %}{% endif %}
-  {% endfor %}
+  {% set prev = collections.chapters | getPrevChapter(page.url) %}
+  {% set next = collections.chapters | getNextChapter(page.url) %}
 
-  {% if ns.idx > 0 %}
-    {% set prev = chapters[ns.idx - 1] %}
+  {% if prev %}
     <a class="chapter-nav__prev" href="{{ prev.url }}">← {{ prev.data.title }}</a>
   {% else %}
     <span></span>
   {% endif %}
 
-  {% if ns.idx < chapters.length - 1 %}
-    {% set next = chapters[ns.idx + 1] %}
+  {% if next %}
     <a class="chapter-nav__next" href="{{ next.url }}">{{ next.data.title }} →</a>
   {% endif %}
 </nav>
