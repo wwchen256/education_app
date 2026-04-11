@@ -1,0 +1,44 @@
+---
+title: Morpheme Index
+layout: base.njk
+permalink: /appendix/
+---
+
+<h1>Morpheme Index</h1>
+<p>Every root and prefix covered in this book, in alphabetical order.</p>
+
+<h2>Roots</h2>
+<table class="morpheme-index">
+  <thead>
+    <tr><th>Morpheme</th><th>Meaning</th><th>Variants</th><th>Chapter</th></tr>
+  </thead>
+  <tbody>
+  {% set sortedRoots = morphemes.roots | sort(false, false, "morpheme") %}
+  {% for entry in sortedRoots %}
+    <tr>
+      <td><span class="morpheme morpheme--root">{{ entry.morpheme }}</span></td>
+      <td>{{ entry.gloss }}</td>
+      <td>{% if entry.variants.length %}{{ entry.variants | join(", ") }}{% else %}—{% endif %}</td>
+      <td><a href="/chapters/{{ entry.chapter }}/">{{ entry.chapterTitle }}</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Prefixes</h2>
+<table class="morpheme-index">
+  <thead>
+    <tr><th>Morpheme</th><th>Meaning</th><th>Variants</th><th>Chapter</th></tr>
+  </thead>
+  <tbody>
+  {% set sortedPrefixes = morphemes.prefixes | sort(false, false, "morpheme") %}
+  {% for entry in sortedPrefixes %}
+    <tr>
+      <td><span class="morpheme morpheme--prefix">{{ entry.morpheme }}</span></td>
+      <td>{{ entry.gloss }}</td>
+      <td>{% if entry.variants.length %}{{ entry.variants | join(", ") }}{% else %}—{% endif %}</td>
+      <td><a href="/chapters/{{ entry.chapter }}/">{{ entry.chapterTitle }}</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

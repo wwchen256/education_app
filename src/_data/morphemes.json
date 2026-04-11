@@ -1,0 +1,41 @@
+{
+  "roots": [
+    {
+      "morpheme": "ject",
+      "gloss": "throw",
+      "variants": ["jec"],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Into / Back / Away"
+    },
+    {
+      "morpheme": "flect",
+      "gloss": "bend",
+      "variants": ["flex"],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Into / Back / Away"
+    }
+  ],
+  "prefixes": [
+    {
+      "morpheme": "re-",
+      "gloss": "back / again",
+      "variants": [],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Into / Back / Away"
+    },
+    {
+      "morpheme": "de-",
+      "gloss": "down from / away from",
+      "variants": [],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Into / Back / Away"
+    },
+    {
+      "morpheme": "in-",
+      "gloss": "into / inward",
+      "variants": ["im-"],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Into / Back / Away"
+    }
+  ]
+}
