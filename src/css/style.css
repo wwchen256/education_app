@@ -1,0 +1,186 @@
+/* ── Reset & base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Typography ───────────────────────────────────────────── */
+:root {
+  --bg: #faf9f5;
+  --text: #1a1a18;
+  --text-muted: #555550;
+  --accent: #5b4fcf;        /* purple — callouts */
+  --root-bg: #dbeafe;       /* blue — roots */
+  --root-fg: #1e3a8a;
+  --prefix-bg: #fef9c3;     /* yellow — prefixes */
+  --prefix-fg: #713f12;
+  --border: #e5e4df;
+  --max-width: 680px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* ── Layout ───────────────────────────────────────────────── */
+.site-nav {
+  display: flex;
+  gap: 24px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+}
+.site-nav a { color: var(--text-muted); text-decoration: none; }
+.site-nav__home { font-weight: 600; color: var(--text); }
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 32px;
+  font-size: 14px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  font-family: system-ui, sans-serif;
+}
+.site-footer a { color: var(--text-muted); }
+
+/* ── Prose ────────────────────────────────────────────────── */
+h1 { font-size: 2rem; margin-bottom: 8px; line-height: 1.2; }
+h2 { font-size: 1.4rem; margin: 40px 0 16px; }
+p  { margin-bottom: 1.2em; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+a  { color: var(--accent); }
+hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+ul { padding-left: 1.5em; margin-bottom: 1.2em; }
+li { margin-bottom: 0.3em; }
+
+/* ── Morpheme tiles ───────────────────────────────────────── */
+.morpheme {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.85em;
+  font-family: system-ui, sans-serif;
+  vertical-align: baseline;
+  position: relative;
+  top: -1px;
+}
+.morpheme--root   { background: var(--root-bg);   color: var(--root-fg); }
+.morpheme--prefix { background: var(--prefix-bg); color: var(--prefix-fg); }
+
+/* ── Word breakdown ───────────────────────────────────────── */
+.word-breakdown { display: inline-flex; align-items: baseline; gap: 2px; }
+.word-meaning {
+  margin-left: 10px;
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-family: system-ui, sans-serif;
+}
+
+/* ── Callout (deep-word box) ──────────────────────────────── */
+.callout--deep-word {
+  border-left: 4px solid var(--accent);
+  background: #f8f7ff;
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+  margin: 28px 0;
+  font-size: 0.95em;
+}
+.callout--deep-word p:last-child { margin-bottom: 0; }
+
+/* ── Variant note ─────────────────────────────────────────── */
+.variant-note {
+  display: inline-block;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 0.85em;
+  font-family: system-ui, sans-serif;
+  color: #166534;
+}
+
+/* ── Exercise block ───────────────────────────────────────── */
+.exercise {
+  background: #f8f8f5;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 32px 0;
+}
+.exercise p:last-child { margin-bottom: 0; }
+details { margin-top: 8px; }
+summary {
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85em;
+  color: var(--accent);
+  user-select: none;
+}
+
+/* ── Chapter header ───────────────────────────────────────── */
+.chapter-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.chapter-morphemes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+/* ── Chapter navigation ───────────────────────────────────── */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+.chapter-nav a { color: var(--accent); text-decoration: none; }
+.chapter-nav__next { margin-left: auto; }
+
+/* ── Morpheme index table ─────────────────────────────────── */
+.morpheme-index {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 24px 0 48px;
+  font-family: system-ui, sans-serif;
+}
+.morpheme-index th {
+  text-align: left;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 8px 12px;
+  border-bottom: 2px solid var(--border);
+}
+.morpheme-index td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .page { padding: 32px 16px 60px; }
+}
