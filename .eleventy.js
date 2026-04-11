@@ -1,0 +1,36 @@
+const markdownIt = require("markdown-it");
+const { rootShortcode, prefixShortcode, wordShortcode, calloutShortcode, variantShortcode, exerciseShortcode } = require("./src/shortcodes.js");
+
+module.exports = function(eleventyConfig) {
+  // Allow HTML in markdown (needed for <details>/<summary> in exercises)
+  const md = markdownIt({ html: true });
+  eleventyConfig.setLibrary("md", md);
+
+  // Register shortcodes
+  eleventyConfig.addShortcode("root", rootShortcode);
+  eleventyConfig.addShortcode("prefix", prefixShortcode);
+  eleventyConfig.addShortcode("word", wordShortcode);
+  eleventyConfig.addPairedShortcode("callout", calloutShortcode);
+  eleventyConfig.addShortcode("variant", variantShortcode);
+  eleventyConfig.addPairedShortcode("exercise", exerciseShortcode);
+
+  // Chapter collection: sorted by filename for prev/next nav
+  eleventyConfig.addCollection("chapters", function(api) {
+    return api.getFilteredByGlob("src/chapters/*.md")
+      .sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
+  });
+
+  // Pass CSS through to _site unchanged
+  eleventyConfig.addPassthroughCopy("src/css");
+
+  return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "_includes",
+      data: "_data"
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk"
+  };
+};
