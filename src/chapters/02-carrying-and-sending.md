@@ -84,8 +84,8 @@ The root *-miss-* is doing identical work in all three. The domain changes; the 
 **transmission** (n.) — the act of sending across; a signal sent; a gearbox (sends power across)
 **emission** (n.) — something sent out; exhaust, radiation, sound
 **submission** (n.) — the act of sending oneself under; also: a document or work submitted
-**submissive** (adj.) — inclined to place oneself under; yielding to authority
-**remittance** (n.) — money sent back; a payment forwarded
+**submissive** (adj.) — inclined to place oneself under; yielding to authority. *"After years of being ignored in meetings, she had become submissive — agreeing to things she knew were wrong."*
+**remittance** (n.) — money sent back; a payment forwarded. *"He worked abroad for three years, sending a remittance home each month to support his family."*
 {% endcallout %}
 
 ---
@@ -112,16 +112,16 @@ In all four senses: under, beneath, subordinate. The prefix never leaves.
 *"The prisoners were subjected to conditions that violated every standard of decency."*
 {% endcallout %}
 
-{% word "subvert", "sub-", "vert", "to turn from underneath" %} — {% prefix "sub-/sup-", "under" %} + {% root "vert", "turn" %}. You saw this in chapter 1's exercises. To subvert an institution is to turn it from underneath — to undermine it, to erode it from below until it topples.
+{% word "subvert", "sub-", "vert", "to turn from underneath" %} — {% prefix "sub-/sup-", "under" %} + {% root "vert", "turn" %}. You saw this in chapter 1's exercises. To subvert an institution is to turn it from underneath — to undermine it, to erode it from below until it topples. *"The spy didn't attack the kingdom directly; he spent three years subverting it, turning the king's own subjects against him one by one."*
 
 {% callout "forms" %}
 **ejection** (n.) — the act of throwing out
 **ejector** (n.) — a mechanism that throws something out
 **subject** (n.) — one placed under authority; a topic placed under discussion
-**subjection** (n.) — the state of being thrown under; subordination
+**subjection** (n.) — the state of being thrown under; subordination. *"A century of subjection had not broken the people's memory of who they had been."*
 **subjective** (adj.) — relating to the subject's own perspective; personal, not external
-**subversion** (n.) — a turning from underneath; the undermining of an institution or belief
-**subversive** (adj.) — tending to undermine; working against from below
+**subversion** (n.) — a turning from underneath; the undermining of an institution or belief. *"The regime fell not from invasion but from internal subversion — its own officials had been turned."*
+**subversive** (adj.) — tending to undermine; working against from below. *"The pamphlet was declared subversive and burned; within a month, everyone had read it."*
 {% endcallout %}
 
 ---

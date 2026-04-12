@@ -35,8 +35,8 @@ In grammar, **inflection** means bending a word to fit its context — *run* bec
 
 {% callout "forms" %}
 **reflection** (n.) — the act of bending back; also: careful thought, looking back mentally
-**reflective** (adj.) — tending to reflect light; also: thoughtful, given to meditation
-**deflection** (n.) — the act of bending away; a turning aside of a blow, question, or criticism
+**reflective** (adj.) — tending to reflect light; also: thoughtful, given to meditation. *"She was a quiet, reflective person — slow to speak, quick to notice."*
+**deflection** (n.) — the act of bending away; a turning aside of a blow, question, or criticism. *"His answer was a deflection — it changed the subject without seeming to."*
 **inflection** (n.) — a bending of the voice; also: grammatical change in word form
 **inflected** (adj.) — modified by inflection; describing a language that changes word endings
 {% endcallout %}
@@ -79,14 +79,14 @@ The third root is {% root "vert", "turn" %} — or in its alternate form {% root
 *De-* gives us a trickier case. {% prefix "de-", "down from / away from" %} + {% root "vert", "turn" %} does not produce *devert* in English — the prefix shifted to *di-* (a variant of *dis-*, meaning *apart*): **divert** = to turn aside. This is one of those moments to note and move on — the prefix changed its coat, as they do.
 
 {% callout "forms" %}
-**reversion** (n.) — a turning back; return to a former state or practice
+**reversion** (n.) — a turning back; return to a former state or practice. *"After the reform collapsed, there was a swift reversion to the old system."*
 **reverse** (v./adj./n.) — turned back; the opposite direction or side
 **reversal** (n.) — a complete turning around; an overturning of a decision
-**inversion** (n.) — a turning upside down; a reversal of order or position
+**inversion** (n.) — a turning upside down; a reversal of order or position. *"The story worked by inversion — the villain turned out to be the one telling the truth."*
 **inverse** (adj./n.) — turned around; the opposite or reciprocal
 **inverted** (adj.) — turned upside down or inside out
 **divert** (v.) — to turn aside; to redirect attention or traffic
-**diversion** (n.) — a turning aside; also: an entertaining distraction
+**diversion** (n.) — a turning aside; also: an entertaining distraction. *"The commotion at the door was a diversion; by the time anyone looked back, the painting was gone."*
 {% endcallout %}
 
 ---
@@ -127,7 +127,7 @@ Not capable of bending — physically (a rigid rod) or personally (someone who w
 <details>
 <summary>Reveal answer</summary>
 
-To turn from underneath — to undermine, to destabilize from below. *Sub-* is a new prefix here; you'll meet it properly in the next chapter.
+To turn from underneath — to undermine, to destabilize from below. A spy sent to a foreign court subverts it not by attacking openly, but by quietly turning the king's advisers, generals, and subjects against him until the whole structure collapses from within. *Sub-* is a new prefix here; you'll meet it properly in the next chapter.
 
 </details>
 {% endexercise %}
