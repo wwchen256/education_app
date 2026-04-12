@@ -34,6 +34,13 @@
       "variants": ["miss"],
       "chapter": "02-carrying-and-sending",
       "chapterTitle": "Carrying and Sending"
+    },
+    {
+      "morpheme": "duc",
+      "gloss": "lead",
+      "variants": ["duct"],
+      "chapter": "03-leading",
+      "chapterTitle": "Leading"
     }
   ],
   "prefixes": [
@@ -78,6 +85,20 @@
       "variants": ["sup-"],
       "chapter": "02-carrying-and-sending",
       "chapterTitle": "Carrying and Sending"
+    },
+    {
+      "morpheme": "pro-",
+      "gloss": "forward / forth",
+      "variants": [],
+      "chapter": "03-leading",
+      "chapterTitle": "Leading"
+    },
+    {
+      "morpheme": "com-",
+      "gloss": "together / with",
+      "variants": ["con-"],
+      "chapter": "03-leading",
+      "chapterTitle": "Leading"
     }
   ]
 }
