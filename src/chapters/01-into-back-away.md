@@ -66,6 +66,8 @@ To be **dejected** is to feel thrown down — cast into low spirits. **Dejection
 **dejection** (n.) — a state of low spirits; despondency
 {% endcallout %}
 
+The root also shows up bare — no prefix, just the throw. *Jet* is a stream of something thrown out. *Jettison* is the act of throwing cargo overboard — the root arrived through French (*jeter*), which wore the *-c-* down to a *-t-*, but the throw is the same. To jettison a plan is to throw it overboard too.
+
 ---
 
 The third root is {% root "vert", "turn" %} — or in its alternate form {% root "vers", "turn" %}, which appears in many common words. Latin *vertere* meant *to turn*.

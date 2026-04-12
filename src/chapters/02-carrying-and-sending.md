@@ -44,11 +44,15 @@ Start with the most familiar: {% word "transport", "trans-", "port", "to carry a
 **supportive** (adj.) — tending to carry another's weight; encouraging
 {% endcallout %}
 
+The root also appears without a prefix. *Portable* means capable of being carried; *porter* is one who carries luggage or goods; *portage* is carrying a canoe overland between waterways. No direction added — just the carrying itself.
+
 ---
 
 ## Sending: {% root "mit", "send" %} and {% root "miss", "send" %}
 
 The root {% root "mit", "send" %} means *send*. It appears as *-mit-* in verbs and shifts to {% root "miss", "send" %} in many noun and adjective forms. Same root, two faces — watch for both.
+
+Before the prefixed words: notice *mission* and *missile*. No prefix — just the root on its own. A *mission* is the sending itself; a *missile* is something capable of being sent (*-ile* means *capable of*). The root stripped bare, doing the whole job.
 
 {% word "transmit", "trans-", "mit", "to send across" %} — the same {% prefix "trans-", "across" %} from *transport*, now on a new root. A radio transmits a signal across the air. A disease transmits across a population.
 
@@ -75,11 +79,12 @@ The root *-miss-* is doing identical work in all three. The domain changes; the 
 {% endcallout %}
 
 {% callout "forms" %}
+**mission** (n.) — a sending; a task or purpose one is sent to carry out
+**missile** (n.) — something capable of being sent; a projectile
 **transmission** (n.) — the act of sending across; a signal sent; a gearbox (sends power across)
 **emission** (n.) — something sent out; exhaust, radiation, sound
 **submission** (n.) — the act of sending oneself under; also: a document or work submitted
 **submissive** (adj.) — inclined to place oneself under; yielding to authority
-**remission** (n.) — a sending back; retreat of disease; absolution of sins
 **remittance** (n.) — money sent back; a payment forwarded
 {% endcallout %}
 
@@ -167,6 +172,15 @@ Something sent out — light emitted from a source, exhaust emitted from an engi
 <summary>Reveal answer</summary>
 
 A subjective view is one thrown under the subject — filtered through your own experience, your own position. It sits beneath you, coloured by who you are. Contrast with *objective*: *ob-* means *toward/against*, so an objective view is one thrown outward, toward the object itself, free of the viewer's position.
+
+</details>
+
+**4.** *portfolio* — from *port* (carry) + *folio* (leaf, page). No prefix. What is a portfolio, literally? Why is that the right word for a collection of work or investments?
+
+<details>
+<summary>Reveal answer</summary>
+
+Literally: a thing that carries leaves — the leaves being pages. A portfolio is a flat case for carrying papers or drawings. The word extended naturally: a portfolio of investments is the collection of assets you carry; a portfolio of work is everything you carry with you to show what you've done. The root earns its place — a portfolio is defined by what it holds and moves.
 
 </details>
 {% endexercise %}
