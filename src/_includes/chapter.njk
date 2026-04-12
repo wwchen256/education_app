@@ -23,12 +23,12 @@ layout: base.njk
   {% set next = collections.chapters | getNextChapter(page.url) %}
 
   {% if prev %}
-    <a class="chapter-nav__prev" href="{{ prev.url }}">← {{ prev.data.title }}</a>
+    <a class="chapter-nav__prev" href="{{ prev.url | url }}">← {{ prev.data.title }}</a>
   {% else %}
     <span></span>
   {% endif %}
 
   {% if next %}
-    <a class="chapter-nav__next" href="{{ next.url }}">{{ next.data.title }} →</a>
+    <a class="chapter-nav__next" href="{{ next.url | url }}">{{ next.data.title }} →</a>
   {% endif %}
 </nav>

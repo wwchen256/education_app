@@ -13,7 +13,7 @@ A guide to English vocabulary through the building blocks of meaning. Each chapt
 
 - [Introduction — What Are Morphemes?]({{ '/intro/' | url }})
 {% for chapter in collections.chapters %}
-- [Chapter {{ chapter.data.chapternumber }} — {{ chapter.data.title }}]({{ chapter.url }})
+- [Chapter {{ chapter.data.chapternumber }} — {{ chapter.data.title }}]({{ chapter.url | url }})
 {% endfor %}
 - [Morpheme Index]({{ '/appendix/' | url }})
 
