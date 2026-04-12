@@ -97,6 +97,19 @@ li { margin-bottom: 0.3em; }
 }
 .callout--deep-word p:last-child { margin-bottom: 0; }
 
+/* ── Forms callout (derivatives) ─────────────────────────── */
+.callout--forms {
+  border-left: 4px solid #0d9488;
+  background: #f0fdfa;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 20px;
+  margin: 16px 0 28px;
+  font-size: 0.9em;
+}
+.callout--forms p { margin-bottom: 0.5em; }
+.callout--forms p:last-child { margin-bottom: 0; }
+.callout--forms strong { color: #134e4a; }
+
 /* ── Variant note ─────────────────────────────────────────── */
 .variant-note {
   display: inline-block;

@@ -31,10 +31,16 @@ test("wordShortcode renders prefix tile, root tile, and meaning", () => {
   assert.ok(html.includes("to bend back"), "missing meaning");
 });
 
-test("calloutShortcode wraps content in callout div", () => {
+test("calloutShortcode defaults to deep-word type", () => {
   const html = calloutShortcode("some **content**");
   assert.ok(html.includes("callout--deep-word"), "missing callout class");
   assert.ok(html.includes("some"), "missing content");
+});
+
+test("calloutShortcode renders forms type", () => {
+  const html = calloutShortcode("**reflection** (n.) — the act of bending back", "forms");
+  assert.ok(html.includes("callout--forms"), "missing forms class");
+  assert.ok(html.includes("reflection"), "missing content");
 });
 
 test("variantShortcode shows canonical and variant", () => {

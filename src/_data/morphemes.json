@@ -5,14 +5,21 @@
       "gloss": "throw",
       "variants": ["jec"],
       "chapter": "01-into-back-away",
-      "chapterTitle": "Into / Back / Away"
+      "chapterTitle": "Throwing, Bending, and Turning"
     },
     {
       "morpheme": "flect",
       "gloss": "bend",
       "variants": ["flex"],
       "chapter": "01-into-back-away",
-      "chapterTitle": "Into / Back / Away"
+      "chapterTitle": "Throwing, Bending, and Turning"
+    },
+    {
+      "morpheme": "vert",
+      "gloss": "turn",
+      "variants": ["vers"],
+      "chapter": "01-into-back-away",
+      "chapterTitle": "Throwing, Bending, and Turning"
     }
   ],
   "prefixes": [

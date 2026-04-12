@@ -18,8 +18,8 @@ function wordShortcode(word, prefix, root, meaning) {
     `</span>`;
 }
 
-function calloutShortcode(content) {
-  return `<div class="callout callout--deep-word">${md.render(content)}</div>`;
+function calloutShortcode(content, type = "deep-word") {
+  return `<div class="callout callout--${type}">${md.render(content)}</div>`;
 }
 
 function variantShortcode(canonical, variant) {
