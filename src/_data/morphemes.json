@@ -20,6 +20,20 @@
       "variants": ["vers"],
       "chapter": "01-into-back-away",
       "chapterTitle": "Throwing, Bending, and Turning"
+    },
+    {
+      "morpheme": "port",
+      "gloss": "carry",
+      "variants": [],
+      "chapter": "02-carrying-and-sending",
+      "chapterTitle": "Carrying and Sending"
+    },
+    {
+      "morpheme": "mit",
+      "gloss": "send",
+      "variants": ["miss"],
+      "chapter": "02-carrying-and-sending",
+      "chapterTitle": "Carrying and Sending"
     }
   ],
   "prefixes": [
@@ -43,6 +57,27 @@
       "variants": ["im-"],
       "chapter": "01-into-back-away",
       "chapterTitle": "Into / Back / Away"
+    },
+    {
+      "morpheme": "trans-",
+      "gloss": "across",
+      "variants": [],
+      "chapter": "02-carrying-and-sending",
+      "chapterTitle": "Carrying and Sending"
+    },
+    {
+      "morpheme": "ex-",
+      "gloss": "out",
+      "variants": ["e-"],
+      "chapter": "02-carrying-and-sending",
+      "chapterTitle": "Carrying and Sending"
+    },
+    {
+      "morpheme": "sub-",
+      "gloss": "under",
+      "variants": ["sup-"],
+      "chapter": "02-carrying-and-sending",
+      "chapterTitle": "Carrying and Sending"
     }
   ]
 }
