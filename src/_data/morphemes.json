@@ -41,6 +41,13 @@
       "variants": ["duct"],
       "chapter": "03-leading",
       "chapterTitle": "Leading"
+    },
+    {
+      "morpheme": "scrib",
+      "gloss": "write",
+      "variants": ["script"],
+      "chapter": "04-writing",
+      "chapterTitle": "Writing"
     }
   ],
   "prefixes": [
@@ -99,6 +106,13 @@
       "variants": ["con-"],
       "chapter": "03-leading",
       "chapterTitle": "Leading"
+    },
+    {
+      "morpheme": "pre-",
+      "gloss": "before",
+      "variants": [],
+      "chapter": "04-writing",
+      "chapterTitle": "Writing"
     }
   ]
 }

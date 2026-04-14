@@ -85,7 +85,7 @@ This is the Socratic idea: the teacher does not deposit understanding; they ask 
 
 ## The Growing Set
 
-Nine prefixes now. The last two — {% prefix "pro-", "forward / forth" %} and {% prefix "com-/con-", "together / with" %} — are among the most common in English:
+Eight prefixes now. The last two — {% prefix "pro-", "forward / forth" %} and {% prefix "com-/con-", "together / with" %} — are among the most common in English:
 
 | Prefix | Meaning | Examples |
 |---|---|---|
