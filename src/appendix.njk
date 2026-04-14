@@ -13,7 +13,7 @@ permalink: /appendix/
     <tr><th>Morpheme</th><th>Meaning</th><th>Variants</th><th>Chapter</th></tr>
   </thead>
   <tbody>
-  {% set sortedRoots = morphemes.roots | sort(false, false, "morpheme") %}
+  {% set sortedRoots = morphemeIndex.roots | sort(false, false, "morpheme") %}
   {% for entry in sortedRoots %}
     <tr>
       <td><span class="morpheme morpheme--root">{{ entry.morpheme }}</span></td>
@@ -31,7 +31,7 @@ permalink: /appendix/
     <tr><th>Morpheme</th><th>Meaning</th><th>Variants</th><th>Chapter</th></tr>
   </thead>
   <tbody>
-  {% set sortedPrefixes = morphemes.prefixes | sort(false, false, "morpheme") %}
+  {% set sortedPrefixes = morphemeIndex.prefixes | sort(false, false, "morpheme") %}
   {% for entry in sortedPrefixes %}
     <tr>
       <td><span class="morpheme morpheme--prefix">{{ entry.morpheme }}</span></td>
