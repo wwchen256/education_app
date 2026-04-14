@@ -9,7 +9,7 @@ morphemes:
     - "pre-"
 ---
 
-This chapter introduces one new prefix. But the root it arrives on is unusual — almost every prefix you've already learned attaches to it. For the first time, the whole grid fires at once.
+This chapter introduces one new prefix. But the root it arrives on is unusual — almost every prefix you've already learned attaches to it, and each combination gives a real English word you already know.
 
 ---
 
