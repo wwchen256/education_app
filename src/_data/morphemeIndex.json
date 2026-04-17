@@ -48,6 +48,13 @@
       "variants": ["script"],
       "chapter": "04-writing",
       "chapterTitle": "Writing"
+    },
+    {
+      "morpheme": "fer",
+      "gloss": "carry / bear",
+      "variants": [],
+      "chapter": "05-bearing",
+      "chapterTitle": "Bearing"
     }
   ],
   "prefixes": [
@@ -113,6 +120,20 @@
       "variants": [],
       "chapter": "04-writing",
       "chapterTitle": "Writing"
+    },
+    {
+      "morpheme": "ob-",
+      "gloss": "toward / against",
+      "variants": ["op-", "of-"],
+      "chapter": "05-bearing",
+      "chapterTitle": "Bearing"
+    },
+    {
+      "morpheme": "inter-",
+      "gloss": "between",
+      "variants": [],
+      "chapter": "05-bearing",
+      "chapterTitle": "Bearing"
     }
   ]
 }
