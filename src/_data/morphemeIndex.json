@@ -55,6 +55,13 @@
       "variants": [],
       "chapter": "05-bearing",
       "chapterTitle": "Bearing"
+    },
+    {
+      "morpheme": "dict",
+      "gloss": "say",
+      "variants": [],
+      "chapter": "06-saying",
+      "chapterTitle": "Saying"
     }
   ],
   "prefixes": [
@@ -134,6 +141,13 @@
       "variants": [],
       "chapter": "05-bearing",
       "chapterTitle": "Bearing"
+    },
+    {
+      "morpheme": "ad-",
+      "gloss": "toward",
+      "variants": ["ac-", "af-", "as-", "ap-"],
+      "chapter": "06-saying",
+      "chapterTitle": "Saying"
     }
   ]
 }
